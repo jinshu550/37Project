@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4724d0d64e48046458ac5a715e4ac4c5, type: 3}
+  m_Name: EliteEnemy
+  m_EditorClassIdentifier: 
+  <Image>k__BackingField: {fileID: 21300000, guid: 47f1e41fe2ccd4b4795ad2ab121fa8a3, type: 3}
+  <Health>k__BackingField: 35
+  <AttackPower>k__BackingField: 3
+  <DefendValue>k__BackingField: 3
+  <HealValue>k__BackingField: 3
+  <Deck>k__BackingField:
+  - {fileID: 11400000, guid: bf41d776b818875418a6de8d9d0ac1e0, type: 2}
+  - {fileID: 11400000, guid: 960d8f5de78be8a4bba94d98706f2a3b, type: 2}
+  - {fileID: 11400000, guid: f0ca559c9269ac340b3b3839d4888f91, type: 2}
+  - {fileID: 11400000, guid: dc30c70829bfa01408a97b24ddb44914, type: 2}
+  - {fileID: 11400000, guid: d58501d37cd8acd41be88931ade928da, type: 2}
+  - {fileID: 11400000, guid: 5bbb5edb58befab41aa5ed87e9345a8d, type: 2}
+  - {fileID: 11400000, guid: 5b5a247ae21963547b33c0d79b317601, type: 2}
+  <AnimatorPath>k__BackingField: AnimatorController/Enemy/EliteEnemy
+  <FunctionCards>k__BackingField:
+  - {fileID: 11400000, guid: 3aa3d8301f6502e4492dc353e54eb882, type: 2}

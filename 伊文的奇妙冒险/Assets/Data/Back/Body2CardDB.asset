@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5d3935f912d79042a1500169d050118, type: 3}
+  m_Name: Body2CardDB
+  m_EditorClassIdentifier: 
+  allBodyCards:
+  - cardId: 2001
+    cardName: "\u611A\u8005"
+    cardBody: 2
+    description: "\u597D\u50CF\u4E00\u65E0\u6240\u77E5\uFF0C\u53C8\u597D\u50CF\u8574\u542B\u4E86\u6BD4\u5176\u5B83\u724C\u4F4D\u66F4\u5927\u7684\u6F5C\u529B\r"
+    battleSprite: {fileID: 21300000, guid: f4eb2cd6adbfa2a4fae3a713092fae9a, type: 3}
+  - cardId: 2002
+    cardName: "\u9B54\u672F\u5E08"
+    cardBody: 2
+    description: "\u8BF8\u795E\u4FE1\u4F7F\u58A8\u4E18\u5229\uFF0C\u6697\u793A\u4F60\u81EA\u5DF1\u4E5F\u80FD\u64CD\u7EB5\u5B87\u5B99\u7684\u529B\u91CF\r"
+    battleSprite: {fileID: 21300000, guid: 1558be2b744a2b342bb15bc482f17567, type: 3}
+  - cardId: 2003
+    cardName: "\u604B\u4EBA"
+    cardBody: 0
+    description: "\u5728\u5929\u4F7F\u7684\u53EC\u5524\u4E0B\uFF0C\u4E00\u5BF9\u7537\u5973\u6210\u4E3A\u4F73\u5076\uFF0C\u4F46\u524D\u65B9\u4ECD\u6709\u7231\u60C5\u7684\u6311\u6218\r"
+    battleSprite: {fileID: 21300000, guid: 63b801616589a5a41824f44aa9628832, type: 3}
+  - cardId: 2004
+    cardName: "\u6218\u8F66"
+    cardBody: 0
+    description: "\u514B\u670D\u969C\u788D\u7684\u738B\u8005\u6218\u8F66\uFF0C\u6C38\u4E0D\u8A00\u8D25\u7684\u4E3B\u9898\u8D2F\u5F7B\u8089\u4F53\u4E0E\u7075\u9B42\r"
+    battleSprite: {fileID: 21300000, guid: 6f5418de01e146947be0d1b3773a8a3a, type: 3}
+  - cardId: 2005
+    cardName: "\u529B\u91CF"
+    cardBody: 0
+    description: "\u6B63\u662F\u6709\u4E86\u7231\u4E0E\u610F\u5FD7\uFF0C\u4EBA\u7C7B\u624D\u80FD\u514B\u670D\u56F0\u96BE\uFF0C\u5728\u5386\u53F2\u957F\u6CB3\u4E2D\u4E0D\u65AD\u524D\u8FDB\r"
+    battleSprite: {fileID: 21300000, guid: d147b94219bb54a468868f77808c412f, type: 3}
+  - cardId: 2006
+    cardName: "\u6076\u9B54"
+    cardBody: 0
+    description: "\u72F0\u72DE\u53EF\u6015\u7684\u6076\u9B54\u5374\u8C61\u5F81\u7740\u6B32\u671B\u548C\u8BF1\u60D1\uFF0C\u5B83\u4E00\u5982\u65E2\u5F80\u7684\u8BA9\u4EBA\u5C48\u670D\r"
+    battleSprite: {fileID: 21300000, guid: b1fb83336c229844ba06a45078635ef5, type: 3}
+  - cardId: 2007
+    cardName: "\u9AD8\u5854"
+    cardBody: 0
+    description: "\u4E00\u5EA7\u9AD8\u8038\u5165\u4E91\u7684\u5854\u88AB\u95EA\u7535\u51FB\u6BC1\uFF0C\u6FC0\u6012\u81EA\u7136\u7684\u4EBA\u4ED8\u51FA\u4E86\u81EA\u5DF1\u7684\u4EE3\u4EF7\r"
+    battleSprite: {fileID: 21300000, guid: 1b0a5ed51111c414cb2c6c501292de26, type: 3}
+  - cardId: 2008
+    cardName: "\u6708\u4EAE"
+    cardBody: 0
+    description: "\u5F53\u6EE1\u6708\u51FA\u73B0\u65F6\uFF0C\u4EBA\u4EEC\u77E5\u9053\u5B83\u9A6C\u4E0A\u5C31\u8981\u4E8F\u635F\u4E86\uFF0C\u5FC3\u4E2D\u7684\u4E0D\u5B89\u6CB9\u7136\u800C\u751F\r"
+    battleSprite: {fileID: 21300000, guid: c63c4f125d550054c959f65e13d963fb, type: 3}
+  - cardId: 2009
+    cardName: "\u592A\u9633"
+    cardBody: 0
+    description: "\u5B83\u662F\u5E0C\u671B\u548C\u7406\u60F3\u7684\u529B\u91CF\uFF0C\u4E0D\u53D7\u4EFB\u4F55\u5916\u5728\u7684\u5E72\u6270\u4E0E\u5185\u5728\u7684\u5BF9\u6297\r"
+    battleSprite: {fileID: 21300000, guid: 8a6a81f2d6ccf1346a1758349f321917, type: 3}

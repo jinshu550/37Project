@@ -1,0 +1,58 @@
+# Unity 编辑器缓存文件（非核心配置，无需版本控制）
+/[Ee]ditor[Ll]og/
+/[Pp]roject[S]ettings/ProjectSettings.asset.meta  # 若团队统一配置，可保留；若个性化，建议忽略
+/[Pp]roject[S]ettings/QualitySettings.asset.meta  # 同上述逻辑，按需选择
+
+# Unity 2020+ 新增的 Package Manager 缓存（避免冗余）
+/Library/PackageCache/
+/Library/ArtifactDB/
+
+# Unity 内置资源缓存（不影响项目运行，仅本地生效）
+/Library/ShaderCache/
+/Library/GfxDeviceCache/
+/Library/PlayerDataCache/
+
+# Unity 编辑器缓存文件（非核心配置，无需版本控制）
+/[Ee]ditor[Ll]og/
+/[Pp]roject[S]ettings/ProjectSettings.asset.meta  # 若团队统一配置，可保留；若个性化，建议忽略
+/[Pp]roject[S]ettings/QualitySettings.asset.meta  # 同上述逻辑，按需选择
+
+# Unity 2020+ 新增的 Package Manager 缓存（避免冗余）
+/Library/PackageCache/
+/Library/ArtifactDB/
+
+# Unity 内置资源缓存（不影响项目运行，仅本地生效）
+/Library/ShaderCache/
+/Library/GfxDeviceCache/
+/Library/PlayerDataCache/
+
+# 本地测试场景/资源（仅自己使用，不提交团队）
+/[Aa]ssets/[Tt]est/  # 自定义测试目录，需与项目实际路径匹配
+/[Aa]ssets/[Dd]ebug/  # 调试用临时资源目录
+
+# 本地日志/截图（非项目核心日志）
+/[Aa]ssets/[Ss]creenshots/  # 本地测试截图目录
+*.debug.log  # 自定义调试日志文件
+
+# 本地构建的临时配置（如不同设备的打包配置）
+/[Bb]uild/[Ll]ocal/  # 本地构建目录（区别于团队统一的 Build 目录）
+*.buildsettings  # 自定义构建配置文件（若不通用）
+
+# Windows 平台相关（如 EXE 运行日志）
+*.exe.log
+/[Bb]uild/[Ww]indows/[Uu]nity[Cc]rash[Hh]andler64/  # Unity 崩溃处理临时文件
+
+# Android 平台相关（除了已有的 .apk/.aab，补充）
+/[Bb]uild/[Aa]ndroid/[Oo]bj/  # Android 编译临时 obj 目录
+/[Bb]uild/[Aa]ndroid/[Bb]in/  # Android 编译临时 bin 目录
+*.keystore  # 本地签名文件（绝对不能提交！若团队有统一签名，需单独管理，不进 Git）
+
+# iOS 平台相关
+/[Bb]uild/[Ii]OS/[Dd]erived[D]ata/  # Xcode 编译衍生数据
+/[Bb]uild/[Ii]OS/[Aa]rchive/  # iOS 归档文件（体积大，非必要）
+
+.vscode/
+Library/
+Logs/
+*.csproj
+*.sln

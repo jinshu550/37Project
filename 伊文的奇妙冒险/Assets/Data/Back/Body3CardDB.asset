@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5d3935f912d79042a1500169d050118, type: 3}
+  m_Name: Body3CardDB
+  m_EditorClassIdentifier: 
+  allBodyCards:
+  - cardId: 3001
+    cardName: "\u547D\u8FD0\u4E4B\u8F6E"
+    cardBody: 0
+    description: "\u4E0D\u7BA1\u4F60\u613F\u610F\u4E0E\u5426\uFF0C\u547D\u8FD0\u5C31\u662F\u5982\u6B64\u65E0\u60C5\uFF0C\u4E8B\u60C5\u603B\u5728\u53D8\u5316\u4E2D\r"
+    battleSprite: {fileID: 21300000, guid: 76c2e5a12bd6a1e4c9043a856644bd7c, type: 3}
+  - cardId: 3002
+    cardName: "\u6B63\u4E49"
+    cardBody: 0
+    description: "\u51B7\u9177\u516C\u6B63\u7684\u6B63\u4E49\u5973\u795E\u53F3\u624B\u6267\u6B63\u4E49\u4E4B\u5251\uFF0C\u5DE6\u624B\u79C9\u5584\u6076\u5929\u5E73\r"
+    battleSprite: {fileID: 21300000, guid: f018945a9068f8e4dbf5b8829a64d0b4, type: 3}
+  - cardId: 3003
+    cardName: "\u5012\u540A\u8005"
+    cardBody: 0
+    description: "\u5177\u6709\u81EA\u6211\u727A\u7272\u7CBE\u795E\u7684\u52C7\u58EB\uFF0C\u4ED6\u77E5\u9053\u81EA\u5DF1\u8D70\u5728\u6B63\u786E\u7684\u9053\u8DEF\u4E0A\r"
+    battleSprite: {fileID: 21300000, guid: fa5d973809198b6478fa8d4998611a3b, type: 3}
+  - cardId: 3004
+    cardName: "\u5BA1\u5224"
+    cardBody: 0
+    description: "\u65E7\u4E16\u754C\u7684\u7EC8\u7109\u4E4B\u65F6\uFF0C\u5929\u4F7F\u5439\u8D77\u53F7\u89D2\uFF0C\u8BA9\u542C\u5230\u8FD9\u97F3\u4E50\u7684\u6B7B\u8005\u5F97\u5230\u6551\u8D4E\r"
+    battleSprite: {fileID: 21300000, guid: b98d2a858d5f6524baf46c79430bb440, type: 3}
+  - cardId: 3005
+    cardName: "\u4E16\u754C"
+    cardBody: 0
+    description: "\u53EA\u8981\u6301\u4E4B\u4EE5\u6052\uFF0C\u4E16\u754C\u5C06\u4E3A\u4F60\u655E\u5F00\uFF0C\u4F60\u5DF2\u7ECF\u5230\u8FBE\u6210\u529F\u4E4B\u95E8\u7684\u524D\u65B9"
+    battleSprite: {fileID: 21300000, guid: e2ccac6bc15529048a29ab847ff735e2, type: 3}

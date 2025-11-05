@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ade575a181cc3d43a071697b149166e, type: 3}
+  m_Name: Justice
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: "\u6B63\u4E49"
+  <Description>k__BackingField: "\u672C\u56DE\u5408\u53D7\u5230\u4F24\u5BB3\u4E0D\u8D85\u8FC71\uFF0C\u82E5\u672C\u56DE\u5408\u5DF2\u6263\u8840\uFF0C\u5219\u53CD\u5F391\u4F24\u5BB3"
+  <Mana>k__BackingField: 3
+  <Image>k__BackingField: {fileID: 21300000, guid: c5732a590bad9854096a67650c46ab8f, type: 3}
+  FunctionCardType: 0
+  <ManualTargetEffect>k__BackingField:
+    rid: 3446439063101112345
+  <OtherEffects>k__BackingField:
+  - <TargetMode>k__BackingField:
+      rid: 3446439016058060807
+    <Effect>k__BackingField:
+      rid: 3446439016058060809
+  <CardType>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 3446439016058060807
+      type: {class: HeroTM, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 3446439016058060809
+      type: {class: AddStatusEffectEffect, ns: , asm: Assembly-CSharp}
+      data:
+        statusEffectType: 2
+        stackCount: 1
+        duration: 1
+    - rid: 3446439063101112345
+      type: {class: DealDamageEffect, ns: , asm: Assembly-CSharp}
+      data:
+        damageAmount: 1

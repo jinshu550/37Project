@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4724d0d64e48046458ac5a715e4ac4c5, type: 3}
+  m_Name: WoodEnemy
+  m_EditorClassIdentifier: 
+  <Image>k__BackingField: {fileID: 21300000, guid: c284f8e6ad291ae47a6a08abe52c5562, type: 3}
+  <Health>k__BackingField: 25
+  <AttackPower>k__BackingField: 2
+  <DefendValue>k__BackingField: 0
+  <HealValue>k__BackingField: 0
+  <Deck>k__BackingField:
+  - {fileID: 11400000, guid: f14810a0059ac834f9d7fa7c40b70964, type: 2}
+  - {fileID: 11400000, guid: f14810a0059ac834f9d7fa7c40b70964, type: 2}
+  - {fileID: 11400000, guid: cdc4fa63b14e93146aaf1ab02bb3f48a, type: 2}
+  - {fileID: 11400000, guid: b11d86bca63e7e540ac1e8881e36223d, type: 2}
+  - {fileID: 11400000, guid: 09760be122dd9e74a95605c4fbf1143c, type: 2}
+  <AnimatorPath>k__BackingField: AnimatorController/Enemy/Wood
+  <FunctionCards>k__BackingField: []

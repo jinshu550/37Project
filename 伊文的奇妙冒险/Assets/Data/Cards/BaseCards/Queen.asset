@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ade575a181cc3d43a071697b149166e, type: 3}
+  m_Name: Queen
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: "\u5973\u7687"
+  <Description>k__BackingField: "\u56DE\u590D1\u751F\u547D\uFF0C\u82E5\u751F\u547D\u5DF2\u6EE1\uFF0C\u5219\u83B7\u5F971\u62A4\u76FE"
+  <Mana>k__BackingField: 1
+  <Image>k__BackingField: {fileID: 21300000, guid: cfb274158bcd5c74e9c4b3e42b76e00d, type: 3}
+  FunctionCardType: 0
+  <ManualTargetEffect>k__BackingField:
+    rid: 3446439063101112348
+  <OtherEffects>k__BackingField:
+  - <TargetMode>k__BackingField:
+      rid: 3446439312650403877
+    <Effect>k__BackingField:
+      rid: 3446439312650403878
+  <CardType>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 3446439063101112348
+      type: {class: DealDamageEffect, ns: , asm: Assembly-CSharp}
+      data:
+        damageAmount: 1
+    - rid: 3446439312650403877
+      type: {class: HeroTM, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 3446439312650403878
+      type: {class: HealthEffect, ns: , asm: Assembly-CSharp}
+      data:
+        healthAmount: 1

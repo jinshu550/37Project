@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ade575a181cc3d43a071697b149166e, type: 3}
+  m_Name: Sun
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: "\u592A\u9633"
+  <Description>k__BackingField: "\u83B7\u5F971\u62A4\u76FE\uFF0C\u62BD1\u5F20\u724C"
+  <Mana>k__BackingField: 2
+  <Image>k__BackingField: {fileID: 21300000, guid: ae8c923c29c1aa8478d6e84a1d7b8085, type: 3}
+  FunctionCardType: 0
+  <ManualTargetEffect>k__BackingField:
+    rid: 3446439063101112351
+  <OtherEffects>k__BackingField:
+  - <TargetMode>k__BackingField:
+      rid: 3446439312650403913
+    <Effect>k__BackingField:
+      rid: 3446439312650403914
+  - <TargetMode>k__BackingField:
+      rid: 3446439312650403915
+    <Effect>k__BackingField:
+      rid: 3446439312650403917
+  <CardType>k__BackingField: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 3446439063101112351
+      type: {class: DealDamageEffect, ns: , asm: Assembly-CSharp}
+      data:
+        damageAmount: 1
+    - rid: 3446439312650403913
+      type: {class: HeroTM, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 3446439312650403914
+      type: {class: DrawCard, ns: , asm: Assembly-CSharp}
+      data:
+        drawAmount: 1
+    - rid: 3446439312650403915
+      type: {class: HeroTM, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 3446439312650403917
+      type: {class: AddStatusEffectEffect, ns: , asm: Assembly-CSharp}
+      data:
+        statusEffectType: 0
+        stackCount: 1
+        duration: 100

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Collect
+  - NPC
+  - Card
+  - Scene
+  - GlobalInventory
+  - GlobalLight2D
+  - CameraBoundary
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - DropArea
+  - EnemyView
+  - Collect
+  - CameraBoundary
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Scene
+    uniqueID: 1210864455
+    locked: 0
+  - name: Player
+    uniqueID: 3973033055
+    locked: 0
+  - name: UI
+    uniqueID: 2848382871
+    locked: 0

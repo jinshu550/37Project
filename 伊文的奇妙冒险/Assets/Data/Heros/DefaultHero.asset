@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20128cca29c267347a1e2fc2c2351456, type: 3}
+  m_Name: DefaultHero
+  m_EditorClassIdentifier: 
+  <Image>k__BackingField: {fileID: 21300000, guid: 8d152bb055faab849845d616fd71e41f, type: 3}
+  <Health>k__BackingField: 40
+  <Deck>k__BackingField:
+  - {fileID: 11400000, guid: e2809b8a082b6984aa6637384dde4277, type: 2}
+  - {fileID: 11400000, guid: 2128cdc4bc2fd674294de82e43a25ddd, type: 2}
+  - {fileID: 11400000, guid: 3b2e5a2d3d1f8da4b88fa903abd5b4a2, type: 2}
+  - {fileID: 11400000, guid: 01999b9e522238c4e9f81e50884e12de, type: 2}
+  - {fileID: 11400000, guid: 9cd27cd1605d4884592e07cd1685ee4a, type: 2}
+  - {fileID: 11400000, guid: ac0bb9dffd23e4c4e9a94668eb10fe1e, type: 2}
+  - {fileID: 11400000, guid: 17c6b86730919124b955b68f4b9101c3, type: 2}
+  - {fileID: 11400000, guid: 6c3328dcc76b5414db180626f6fc25a3, type: 2}
+  - {fileID: 11400000, guid: b5bddfb44420d304e8dbbd6bb95c8b65, type: 2}
+  - {fileID: 11400000, guid: d40959ddfdd9c8a48a2901172f28b316, type: 2}
+  - {fileID: 11400000, guid: 2d8d6a96584ec1847bd91e0f1d38b365, type: 2}
+  - {fileID: 11400000, guid: 40c22c48e2ca07940b0b3e9a543d0225, type: 2}
+  - {fileID: 11400000, guid: 22769a98223fea343b8eddea6de6489e, type: 2}
+  - {fileID: 11400000, guid: da4f34da10f2b674d96aa5c5a276ef5e, type: 2}
+  - {fileID: 11400000, guid: cbbb35e29a898264c8047305a7cc05c6, type: 2}
+  - {fileID: 11400000, guid: 25acc0295de8f42478c0613e11e60bee, type: 2}
+  - {fileID: 11400000, guid: 69632cdad7be4b64693d38a434c35afd, type: 2}
+  - {fileID: 11400000, guid: 95c53877928f71b4b8b3e7b769715b25, type: 2}
+  - {fileID: 11400000, guid: 4e7d82baa3558ab488254d9a519d6854, type: 2}
+  - {fileID: 11400000, guid: 1d868c21849a10e44900525c6b5677b4, type: 2}
+  - {fileID: 11400000, guid: ee32606f36b5be54d87fd72c31f7f090, type: 2}
+  FunctionDeck: []

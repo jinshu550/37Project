@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5d3935f912d79042a1500169d050118, type: 3}
+  m_Name: Body1CardDB
+  m_EditorClassIdentifier: 
+  allBodyCards:
+  - cardId: 1001
+    cardName: "\u5973\u796D\u53F8"
+    cardBody: 1
+    description: "\u5723\u6D01\u7684\u5973\u796D\u53F8\u5145\u6EE1\u667A\u6167\uFF0C\u653E\u5FC3\u4EA4\u7ED9\u5979\u53BB\u51B3\u5B9A\u597D\u4E86\r"
+    battleSprite: {fileID: 21300000, guid: a5b18f35c212b904da48d5397d285070, type: 3}
+  - cardId: 1002
+    cardName: "\u5973\u7687"
+    cardBody: 1
+    description: "\u4E30\u6536\u7684\u8C61\u5F81\uFF0C\u662F\u80A5\u6C83\u7684\u571F\u5730\u548C\u5706\u6EE1\u7684\u7231\r"
+    battleSprite: {fileID: 21300000, guid: 212138df896b3ec4797214e31376ea22, type: 3}
+  - cardId: 1003
+    cardName: "\u7687\u5E1D"
+    cardBody: 1
+    description: "\u8C61\u5F81\u6743\u529B\u548C\u5730\u4F4D\u7684\u7687\u5E1D\uFF0C\u65F6\u523B\u51C6\u5907\u8FCE\u63A5\u6311\u6218\r"
+    battleSprite: {fileID: 21300000, guid: 912565e551946994daef3b249611ac2a, type: 3}
+  - cardId: 1004
+    cardName: "\u9690\u8005"
+    cardBody: 1
+    description: "\u5728\u9ED1\u6697\u4E2D\u5B64\u72EC\u5730\u6478\u7D22\u524D\u8FDB\uFF0C\u5728\u8FFD\u6C42\u81EA\u6211\u7684\u9014\u4E2D\u5F97\u4EE5\u7AA5\u89C1\u771F\u7406\r"
+    battleSprite: {fileID: 21300000, guid: 3ac282c9510a39d409f578e0ea350613, type: 3}
+  - cardId: 1005
+    cardName: "\u6B7B\u795E"
+    cardBody: 1
+    description: "\u767D\u9A6C\u4E0A\u7740\u7532\u7684\u6B7B\u795E\uFF0C\u6536\u5272\u82B8\u82B8\u4F17\u751F\uFF0C\u663E\u793A\u7740\u4E0D\u53EF\u62B5\u6321\u7684\u529B\u91CF\r"
+    battleSprite: {fileID: 21300000, guid: 24b4f007ccdd2c04ca596998bbdee8e4, type: 3}
+  - cardId: 1006
+    cardName: "\u8282\u5236"
+    cardBody: 1
+    description: "\u53CC\u624B\u6301\u5723\u676F\u7684\u5929\u4F7F\uFF0C\u6B63\u5728\u5E73\u8861\u7269\u8D28\u4E0E\u7CBE\u795E\u7684\u5173\u7CFB\r"
+    battleSprite: {fileID: 21300000, guid: fd15274b686300c449d3e05f5a5a1d09, type: 3}
+  - cardId: 1007
+    cardName: "\u661F\u661F"
+    cardBody: 1
+    description: "\u53EA\u8981\u6709\u5E0C\u671B\uFF0C\u4EBA\u4EEC\u624D\u6709\u52A8\u529B\u53BB\u5B8C\u6210\u8BB8\u591A\u4E8B\uFF0C\u50CF\u5929\u72FC\u661F\u5149\u4E0B\u5012\u4E0D\u5B8C\u7684\u5723\u6C34\r"
+    battleSprite: {fileID: 21300000, guid: f61ce66416cfb404695b3b6d7b6abe00, type: 3}

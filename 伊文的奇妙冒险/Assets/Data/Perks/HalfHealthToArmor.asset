@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b76847366baf574ab9bf078c9b09769, type: 3}
+  m_Name: HalfHealthToArmor
+  m_EditorClassIdentifier: 
+  <Image>k__BackingField: {fileID: 0}
+  <PerkCondition>k__BackingField:
+    rid: 3446439312650403898
+  <AutoTargetEffect>k__BackingField:
+    rid: -2
+  <AdditionalEffect>k__BackingField:
+    rid: 3446439312650403899
+  <UseAutoTarget>k__BackingField: 1
+  <UseActionCasterAsTarget>k__BackingField: 0
+  <TargetCardTitles>k__BackingField:
+  - Star
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 3446439312650403898
+      type: {class: HasHalfOfHealthCondition, ns: , asm: Assembly-CSharp}
+      data:
+        reactionTiming: 0
+    - rid: 3446439312650403899
+      type: {class: AutoTargetEffect, ns: , asm: Assembly-CSharp}
+      data:
+        <TargetMode>k__BackingField:
+          rid: 3446439312650403902
+        <Effect>k__BackingField:
+          rid: 3446439312650403901
+    - rid: 3446439312650403901
+      type: {class: AddStatusEffectEffect, ns: , asm: Assembly-CSharp}
+      data:
+        statusEffectType: 0
+        stackCount: 2
+        duration: 100
+    - rid: 3446439312650403902
+      type: {class: HeroTM, ns: , asm: Assembly-CSharp}
+      data: 
